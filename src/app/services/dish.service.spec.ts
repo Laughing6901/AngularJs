@@ -14,7 +14,4 @@ describe('DishService', () => {
   it('should be created', () => {
     expect(service).toBeTruthy();
   });
-  getDishes(): Dish[] {
-    return DISHES;
-  }
 });

@@ -1,12 +1,9 @@
-export class Dish {
+export class Promotion {
     id: string;
     name: string;
     image: string;
-    category: string;
-    featured: boolean;
     label: string;
     price: string;
+    featured: boolean;
     description: string;
-    comments: Comment[];
 }
-
